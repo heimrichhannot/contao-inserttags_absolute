@@ -1,0 +1,32 @@
+{
+    "name": "heimrichhannot/contao-inserttags_absolute",
+    "description":"A module that enhances the built-in inserttags with ones generating absolute links.",
+    "keywords":["contao", "absolute", "inserttags", "insert", "tag"],
+    "type": "contao-module",
+    "homepage":"https://github.com/heimrichhannot/contao-inserttags_absolute",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/heimrichhannot/contao-inserttags_absolute/issues"
+    },
+    "require": {
+        "contao/core": ">=3.2,<4-dev"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/inserttags_absolute"
+            }
+        }
+    }
+}
